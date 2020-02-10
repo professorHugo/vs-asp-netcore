@@ -15,8 +15,8 @@
     <div id="header" class="page-navbar">
         <!-- .navbar-brand -->
         <a href="index.html" class="navbar-brand hidden-xs hidden-sm">
-            <img src="img/logo.png" class="logo hidden-xs" alt="Dynamic logo">
-            <img src="img/logosm.png" class="logo-sm hidden-lg hidden-md" alt="Dynamic logo">
+            <img src="~/img/logo.png" class="logo hidden-xs" alt="Dynamic logo">
+            <img src="~/img/logosm.png" class="logo-sm hidden-lg hidden-md" alt="Dynamic logo">
         </a>
         <!-- / navbar-brand -->
         <!-- .no-collapse -->
@@ -61,9 +61,11 @@
 
     <!-- Back to top -->
     <div id="back-to-top">
-        <a href="#">Back to Top</a>
+        <a href="#">Voltar para o Topo</a>
     </div>
 
     @await Html.PartialAsync("PartialViews/_scripts")
+
+    @RenderSection("scripts", required: false)
 </body>
 </html>

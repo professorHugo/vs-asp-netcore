@@ -117,3 +117,7 @@ C:\Users\hugo\Desktop\NetCore\Zero\ITDeveloper\src\Cooperchip.ITDeveloper.Mvc\ob
 C:\Users\hugo\Desktop\NetCore\Zero\ITDeveloper\src\Cooperchip.ITDeveloper.Mvc\bin\Debug\netcoreapp3.1\bundleconfig.json
 C:\Users\hugo\Desktop\NetCore\Zero\ITDeveloper\src\Cooperchip.ITDeveloper.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\PartialViews\_layout_original.cshtml.g.cs
 C:\Users\hugo\Desktop\NetCore\Zero\ITDeveloper\src\Cooperchip.ITDeveloper.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\PartialViews\_sub_navbar.cshtml.g.cs
+C:\Users\hugo\Desktop\NetCore\Zero\ITDeveloper\src\Cooperchip.ITDeveloper.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Icones.cshtml.g.cs
+C:\Users\hugo\Desktop\NetCore\Zero\ITDeveloper\src\Cooperchip.ITDeveloper.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Index.cshtml.g.cs
+C:\Users\hugo\Desktop\NetCore\Zero\ITDeveloper\src\Cooperchip.ITDeveloper.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Lista.cshtml.g.cs
+C:\Users\hugo\Desktop\NetCore\Zero\ITDeveloper\src\Cooperchip.ITDeveloper.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Sobre.cshtml.g.cs

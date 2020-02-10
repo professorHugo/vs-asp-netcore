@@ -48,6 +48,14 @@ namespace Cooperchip.ITDeveloper.Mvc
 
             app.UseEndpoints(endpoints =>
             {
+                //endpoints.MapControllerRoute(
+                //    name: "modulos",
+                //    pattern: "Prontuario/{controller=Home}/{action=Index}/{id?}");
+
+                //endpoints.MapControllerRoute(
+                //    name: "pacientes",
+                //    pattern: "{controller=Home}/{action=Index}/{id}/{paciente}");
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

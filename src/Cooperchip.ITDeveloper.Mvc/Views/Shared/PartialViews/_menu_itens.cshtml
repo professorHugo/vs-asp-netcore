@@ -1,12 +1,40 @@
 ﻿<div class="side-nav">
     <ul class="nav">
         <li>
-            <a href="index.html"><i class="l-basic-laptop"></i><span class="txt">Dashboard</span></a>
+            <a asp-controller="Home" asp-action="Index"><i class="l-basic-laptop"></i><span class="txt">Dashboard</span></a>
         </li>
         <li>
             <a href="http://themes.suggelab.com/#dynamic_frontend" target="_blank"><i class="l-basic-webpage"></i><span class="txt">Frontend</span><span class="label">hot</span></a>
         </li>
+
+
         <li>
+            <a href="#"><i class="i-ecommerce-graph1"></i><span class="txt">Demo - Rotas</span></a>
+            <ul class="sub">
+                <li>
+                    <a asp-controller="Home" asp-action="Index"><span class="txt">Home</span></a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Icones"><span class="txt">Icones</span></a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Privacy"><span class="txt">Privacidade</span></a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Error"><span class="txt">Erro</span></a>
+                </li>
+            </ul>
+            <ul class="sub">
+                <li>
+                    <a asp-controller="Produto" asp-action="Index"><span class="txt">Produtos</span></a>
+                </li>
+                <li>
+                    <a asp-controller="Produto" asp-action="Lista"><span class="txt">Listagem de Produtos</span></a>
+                </li>
+            </ul>
+        </li>
+
+        @*<li>
             <a href="#"><i class="l-ecommerce-graph1"></i> <span class="txt">Charts</span></a>
             <ul class="sub">
                 <li>
@@ -183,6 +211,8 @@
                     </ul>
                 </li>
             </ul>
-        </li>
+        </li>*@
+
+
     </ul>
 </div>
